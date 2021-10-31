@@ -2,7 +2,7 @@ package com.Baking;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void AccountNoGeneratemain(String[] args) {
 	// write your code here
     }
 }
