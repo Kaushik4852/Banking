@@ -7,7 +7,9 @@ import java.util.Scanner;
 
 public class Main {
 
-    static String randomStr(){
+
+    static String randomStr()
+    {
         int leftLimit = 65;  // letter 'A'
         int rightLimit = 90;  // letter 'Z'
         int strLength = 5;
@@ -21,13 +23,15 @@ public class Main {
 //        String generatedString = buffer.toString();
         return buffer.toString();
 //        System.out.println(generatedString);
+
     }
 
 
 
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
 
         Input form = new Input();
         Scanner input = new Scanner(System.in);
